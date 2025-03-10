@@ -3,17 +3,16 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
-  width: 80%;
-  margin: 0 auto;
   font-family: "Roboto", serif;
 }
+
 h1 {
   font-family: "Roboto Slab", serif;
   font-size: 55px;
   font-weight: 700;
 }
-
 /*Musa */
 
 /* Xeyale */
@@ -23,3 +22,159 @@ h1 {
 /* Aqil*/
 
 /* Kamal*/
+
+.footer7 {
+  background-color: #9DC9C8;
+  padding: 100px 0;
+}
+
+.big {
+  margin-top: 50px;
+}
+
+.big1 {
+  font-size: 25px;
+}
+
+.big2 {
+  font-weight: 400px;
+  font-size: 80px;
+}
+
+.boxes7 {
+  margin-top: 70px;
+  display: flex;
+  gap: 60px;
+}
+
+.box7,
+.box8 {
+  width: 294px;
+  font-size: 18px;
+}
+.pul1{
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.pul2{
+  font-size: 18px;
+}
+.footer8 p {
+  color: #fff;
+}
+.footer85{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: black;
+  padding: 100px 0 30px 0;
+  height: 390px;
+}
+.footer85-content{
+  display: flex;
+ justify-content: space-between;
+  
+}
+.first9{
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+.first10 p{
+  color: white;
+  display: inline;
+}
+
+.first10 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.first10 .contact {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.end1{
+  font-size: 18px;
+}
+
+/* tablet */
+@media (max-width: 1279px) {
+    .first7 h1{
+      font-size: 32px;
+    }  
+  .big1{
+      font-size: 14px;
+    }
+    .big2{
+      font-size: 46px;
+    }
+    .pul2{
+       font-size: 10px;
+    }
+    .pul1{
+      font-size: 14px;
+    }
+    .first8 img{
+      width: 66px;
+      height: 39px;
+    }
+    .first9 img{
+      width: 20px;
+      height: 20px;
+    }
+    .first10 img{
+      width: 15.6px;
+      height: 15.6px;
+    }
+    .contact p{
+        font-size: 14px;
+    }
+    .end1{
+      font-size: 10px;
+    }
+    
+}
+/* smartphone */
+@media (max-width: 991px){
+  .first10 {
+    gap: 10px;
+    margin-top: 60px;
+  }
+  .footer85-content {
+    display: block;
+  }
+  .first7 h1{
+    font-size: 26px;
+  }  
+  .big1{
+    font-size: 12px;
+  }
+  .big2{
+    font-size: 37px;
+  }
+  .pul1{
+    font-size: 12px;
+  }
+  .pul2{
+    font-size: 10px;
+  }
+  .contact p{
+      font-size: 12px;
+  }
+  .first8 img{
+    width: 53px;
+    height: 31px;
+  }
+  .first9 img{
+    width: 16px;
+    height: 16px;
+  }
+  .first10 img{
+    width: 13px;
+    height: 13px;
+  }
+
+}
+  
