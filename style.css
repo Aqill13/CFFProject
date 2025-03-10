@@ -19,7 +19,195 @@ h1 {
 /* Xeyale */
 
 /* Ayxan*/
+.section3, .section4 {
+  padding: 40px 0;
+}
+.title1 {
+  color: #000000;
+  margin-bottom: 100px;
+}
+.container {
+  display: flex;
+  gap: 90px;
+  flex-wrap: wrap; 
+}
+.block {
+  width: 260px; 
+}
 
+.p1{
+  font-size: 18px;
+  width: 223px;
+  height: 39px;
+}
+.p2{
+  font-size: 18px;
+  width: 271px;
+  height: 109px;
+}
+.p3{
+  font-size: 18px;
+  width: 245px;
+  height: 39px;
+}
+
+.subtitle {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: #1E4681;
+  display: inline-block;
+  
+
+}
+
+.title2{
+  color: #000000;
+  margin-top: 80px;
+  margin-bottom: 40px;
+
+}
+.list {
+  /* margin-left: 20px; */
+  width: 662px;
+  height: 374px;
+  margin-left: 25px;
+  font-weight: 400;
+  
+
+}
+
+
+.list li {
+  font-size: 24px;
+  margin-bottom: 5px;
+  
+}
+
+
+
+@media(max-width: 1279px) {
+  .title1 {
+    font-size: 32px;
+    Width: 386.3px;
+    height: 53.86px;
+    margin-bottom: 50px;
+  }
+  .block {
+    width: 180px; 
+  }
+  .container {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap; 
+  }
+
+
+
+.subtitle{
+  font-size: 15px;
+  /* width: 86.88px;
+  height: 22.59px; */
+}
+
+
+.p1{
+  font-size: 11px;
+  width: 153px;
+  height: 22px;
+  font-weight: 400;
+  
+}
+.p2{
+  font-size: 11px;
+  width: 172px;
+  height: 63px;
+  font-weight: 400;
+  
+}
+.p3{
+  font-size: 11px;
+  width: 141.9px;
+  height: 22.59px;
+  font-weight: 400;
+}
+
+.title2{
+  font-size: 32px;
+  margin-top: 40px;
+  width: 386.3px;
+  height: 53.86px;
+  margin-bottom: 10px;
+}
+
+.list li{
+  font-size: 14px;
+  font-weight: 400;
+  
+}
+.list {
+  margin-left: 15px;
+  width: 383.41px;
+  height: 216.61px;
+  
+}
+
+
+}
+
+@media(max-width: 991px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .block {
+    width: 100%;
+  }
+  .title1 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  .subtitle {
+    font-size: 12px;
+  }
+  
+
+  .p1{
+    font-size: 10px;
+    width: 180px;
+    height: 48px;
+    font-weight: 400;
+  }
+  .p2{
+    font-size: 10px;
+    width: 165px;
+    height: 51px;
+    font-weight: 400;
+  }
+  .p3{
+    font-size: 10px;
+    width: 159px;
+    height: 31px;
+    font-weight: 400;
+  }
+  .title2 {
+    font-size: 26px;
+    margin-top: 0px;
+    width: 310.8px;
+    height: 43.34px;
+  }
+  .list {
+    width: 299px;
+    height: 194px;
+  }
+  .list li {
+    font-size: 12px;
+    font-weight: 400;
+   
+  }
+}
 /* Aqil*/
 
 /* Kamal*/
