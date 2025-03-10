@@ -351,7 +351,7 @@ header {
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 991px) {
+@media (max-width: 991px) {
   .page2 {
     display: flex;
     align-items: center;
@@ -414,10 +414,7 @@ header {
 }
 
 /* Ayxan*/
-.section3,
-.section4 {
-  padding: 40px 0;
-}
+
 .title1 {
   color: #000000;
   margin-bottom: 100px;
@@ -477,8 +474,6 @@ header {
 @media (max-width: 1279px) {
   .title1 {
     font-size: 32px;
-    width: 386.3px;
-    height: 53.86px;
     margin-bottom: 50px;
   }
   .block-sec3 {
@@ -518,8 +513,6 @@ header {
   .title2 {
     font-size: 32px;
     margin-top: 40px;
-    width: 386.3px;
-    height: 53.86px;
     margin-bottom: 10px;
   }
 
@@ -572,11 +565,9 @@ header {
   .title2 {
     font-size: 26px;
     margin-top: 0px;
-    width: 310.8px;
-    height: 43.34px;
   }
   .list {
-    width: 299px;
+    width: 279px;
     height: 194px;
   }
   .list li {
@@ -736,6 +727,10 @@ header {
   }
 }
 @media (max-width: 370px) {
+  .list {
+    width: 230px;
+    font-size: 10px;
+  }
   .message .section .message-box {
     border-radius: 10px;
     padding: 10px;
