@@ -5,6 +5,7 @@
 }
 body {
   font-family: "Roboto", serif;
+
 }
 
 section .section {
@@ -19,7 +20,221 @@ h1 {
 }
 
 /*Musa */
+header {
+  padding-top: 21px;
+}
 
+.section1 {
+  padding-right: 30px;
+}
+
+.section1-first {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 93px;
+}
+
+.section1-date {
+  display: flex;
+  gap: 45px;
+}
+
+.section1-group span {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  margin-left: 4px;
+}
+
+.section1-text h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 80px;
+  margin-top: 38px;
+  padding-left: 1px;
+  line-height: 81px;
+}
+
+.section1-text p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  margin-top: 16px;
+  line-height: 30px;
+  padding-left: 1px;
+}
+
+.section1-left {
+  width: 60%;
+}
+
+.section1-first>img {
+  margin-top: 40px;
+
+}
+
+.section1-card {
+  margin: 0 auto;
+  margin-top: 70px;
+  width: 45%;
+  background-color: #1E4681;
+  color: white;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.section1-card p:first-of-type {
+  font-family: "Roboto Slab", serif;
+  font-size: 25px;
+}
+
+.section1-card p:last-of-type {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  text-align: end;
+  padding: 10px 0 0;
+}
+
+
+/* Tablet */
+
+
+@media screen and (min-width: 992px) and (max-width:1279px) {
+
+
+  header img {
+    width: 64.87px;
+  }
+
+  .section1 {
+    padding-right: 30px;
+  }
+
+  .section1-first {
+    padding-top: 50px;
+  }
+
+  .section1-date {
+    gap: 25px;
+  }
+
+  .section1-group img {
+    width: 12.74px;
+  }
+
+  .section1-group span {
+    font-size: 12px;
+  }
+
+
+  .section1-text h1 {
+    font-size: 46px;
+    margin-top: 10px;
+    line-height: 50px;
+  }
+
+  .section1-text p {
+    font-size: 12px;
+    margin-top: 15px;
+    line-height: 20px;
+  }
+
+  .section1-first>img {
+    margin-top: 30px;
+    width: 25%;
+
+  }
+
+  .section1-card {
+    margin-top: 55px;
+    width: 40%;
+    padding: 15px;
+  }
+
+  .section1-card p:first-of-type {
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  .section1-card p:last-of-type {
+    font-size: 12px;
+    padding: 5px 0 0;
+    font-weight: 300;
+  }
+}
+
+
+/* Mobile */
+
+
+@media screen and (max-width:991px) {
+
+
+  header img {
+    width: 52.19px;
+  }
+
+  .section1 {
+    padding-right: 20px;
+  }
+
+  .section1-first {
+    padding-top: 40px;
+    flex-direction: column;
+  }
+
+  .section1-date {
+    gap: 15px;
+  }
+
+  .section1-group img {
+    width: 10.25px;
+  }
+
+  .section1-group span {
+    font-size: 10px;
+  }
+
+
+  .section1-text h1 {
+    font-size: 37px;
+    margin-top: 8px;
+    line-height: 43px;
+  }
+
+  .section1-text p {
+    font-size: 10px;
+    margin-top: 10px;
+    line-height: 15px;
+  }
+
+  .section1-first>img {
+    margin-top: 10px;
+    width: 160px;
+    align-self: flex-end;
+
+  }
+
+  .section1-left {
+    width: 100%;
+  }
+
+  .section1-card {
+    margin-top: 50px;
+    width: 60%;
+    padding: 12px;
+  }
+
+  .section1-card p:first-of-type {
+    font-size: 11px;
+    font-weight: 300;
+  }
+
+  .section1-card p:last-of-type {
+    font-size: 10px;
+    padding: 5px 0 0;
+    font-weight: 300;
+  }
+
+
+}
 /* Xeyale */
 .page2-container {
   display: flex;
