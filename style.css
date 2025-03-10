@@ -96,7 +96,7 @@ header {
 /* Tablet */
 
 
-@media screen and (min-width: 992px) and (max-width:1279px) {
+@media screen and (min-width: 992px) and (max-width: 1279px) {
 
 
   header img {
