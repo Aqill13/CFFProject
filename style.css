@@ -96,7 +96,7 @@ header {
 /* Tablet */
 
 
-@media screen and (min-width: 992px) and (max-width:1279px) {
+@media screen and (min-width: 992px) and (max-width: 1279px) {
 
 
   header img {
@@ -298,7 +298,7 @@ header {
   width: 61%;
 }
 
-@media screen and (min-width: 992px) and (max-width: 1279px) {
+@media screen and (min-width: 991px) and (max-width: 1279px) {
   .page2 {
     padding-top: 40px;
     align-items: flex-end;
