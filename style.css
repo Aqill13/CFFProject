@@ -436,23 +436,20 @@ header {
   flex-wrap: wrap;
 }
 .block-sec3 {
-  width: 260px;
+  width: 25%;
 }
 
 .p1 {
   font-size: 18px;
-  width: 223px;
-  height: 39px;
+  width: 100%;
 }
 .p2 {
   font-size: 18px;
-  width: 271px;
-  height: 109px;
+  width: 100%;
 }
 .p3 {
   font-size: 18px;
-  width: 245px;
-  height: 39px;
+  width: 100%;
 }
 
 .subtitle {
@@ -507,20 +504,14 @@ header {
   .p1 {
     font-size: 11px;
     width: 153px;
-    height: 22px;
-    font-weight: 400;
   }
   .p2 {
     font-size: 11px;
     width: 172px;
-    height: 63px;
-    font-weight: 400;
   }
   .p3 {
     font-size: 11px;
     width: 141.9px;
-    height: 22.59px;
-    font-weight: 400;
   }
 
   .title2 {
@@ -736,6 +727,8 @@ header {
 }
 @media (max-width: 630px) {
   .boxes-section .boxes {
+    /* width: 80%;
+    margin: 70px auto 0 auto; */
     grid-template-columns: repeat(1, 1fr);
   }
   .message .section .message-box {
@@ -760,6 +753,12 @@ header {
   }
   .message .section .message-box .msg-content {
     font-size: 8px;
+  }
+  .list {
+    width: 100%;
+  }
+  .title2 {
+    width: 100%;
   }
 }
 
