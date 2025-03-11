@@ -177,7 +177,6 @@ header {
 
   .section1-first {
     padding-top: 40px;
-    flex-direction: column;
   }
 
   .section1-date {
@@ -218,7 +217,7 @@ header {
 
   .section1-card {
     margin-top: 50px;
-    width: 60%;
+    width: 42%;
     padding: 12px;
   }
 
@@ -234,6 +233,18 @@ header {
   }
 
 
+}
+
+@media screen and (max-width:650px) {
+
+  .section1-first {
+    flex-direction: column;
+  }
+  .section1-card {
+    margin-top: 50px;
+    width:65%;
+    padding: 12px;
+  }
 }
 /* Xeyale */
 .page2-container {
